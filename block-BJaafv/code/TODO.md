@@ -5,10 +5,9 @@
 function sum(a, b) {
   return a + b;
 }
+const first =(2,3)
 
-const sum = sum(2,3)
-
-first
+first()
 
 // second
 function sum(a, b) {
@@ -19,10 +18,24 @@ return will return the actual value of the function whereas console.log will jus
 
 2. If we store the returned value of both functions above in variable `first` and `second` what will be the value of `first` and `second`.
 
+function sum(a, b) {
+  return a + b;
+}
+
+const first =(2,3)
+
+first
+///
+
+function sum(a, b) {
+  console.log(a + b);
+}
 
 3. What will be the output when you call above `sum` function (first) with three parameter like `sum(12, 24, 35)`. Explain why?
+The output will be 36 becayse there is no c variable. It will ignore the last parameter.
 
 4. Can you store the first `sum` function in a variable named `add`. If yes why? If no why?
+no
 
 5. Declare a function named `sayHello` the accepts a parameter `name` and returns the name like `Hello Arya`.
 
